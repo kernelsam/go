@@ -16,7 +16,6 @@ func main() {
 	var e int
 	fmt.Println(e)
 
-
 	f := "apple"
 	fmt.Println(f)
 }
