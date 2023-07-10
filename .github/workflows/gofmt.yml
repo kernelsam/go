@@ -1,0 +1,11 @@
+---
+
+name: 'gofmt'
+
+on:
+    pull_request:
+        branches: [main]
+
+jobs:
+    gofmt:
+        uses: kernelsam/shared-workflows/.github/workflows/gofmt.yml@main
