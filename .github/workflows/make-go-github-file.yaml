@@ -21,5 +21,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
+        env:
+          GITHUB_ACTOR: ${{ secrets.ACTOR }}
       - name: Make github.go file
         uses: Senzing/github-action-make-go-github-file@main
