@@ -23,6 +23,3 @@ jobs:
           git_commit_gpgsign: true
       - name: Make github.go file
         uses: Senzing/github-action-make-go-github-file@main
-        with:
-          file: example/example.go
-          package: myexample
