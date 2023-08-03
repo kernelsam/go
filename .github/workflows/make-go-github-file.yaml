@@ -24,4 +24,4 @@ jobs:
       - name: Make github.go file
         uses: Senzing/github-action-make-go-github-file@61-skern
         with:
-          actor: test
+          actor: ${{ secrets.ACTOR }}
