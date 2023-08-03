@@ -24,4 +24,4 @@ jobs:
       - name: Make github.go file
         uses: Senzing/github-action-make-go-github-file@main
         env:
-          GITHUB_ACTOR: ${{ secrets.ACTOR }}
+          GITHUB_ACTOR: test
